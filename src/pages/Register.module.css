@@ -1,0 +1,92 @@
+.containerRegister {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+}
+
+.wrapRegister {
+	width: 60%;
+	background: #fff;
+	border-radius: 15px;
+	padding: 3em;
+	box-shadow: 0 5px 10px 0px rgba(255, 255, 255, 0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form {
+	width: 100%;
+	margin: 1em 0;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.inputContainer {
+	width: 100%;
+	position: relative;
+	margin-top: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	font-size: 14px;
+	color: black;
+	line-height: 1.2;
+	border: none;
+	display: block;
+	height: 30px;
+	border-bottom: 2px solid #adadad;
+}
+
+.input:focus {
+	outline: none;
+}
+
+.signUp {
+	font-size: 12px;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.signUpLink {
+	margin-left: 0.5em;
+}
+
+.signUpLink:hover {
+	text-decoration: none;
+}
+
+.icon {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.helpText {
+	font-size: 10px;
+	color: black;
+	margin-top: 0.5em;
+	display: flex;
+	align-items: center;
+}
+
+.iconHelpText {
+	width: 20px;
+	height: 20px;
+	margin-right: 0.5em;
+}
